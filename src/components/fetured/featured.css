@@ -1,0 +1,362 @@
+.featured_info {
+    height: 530px;
+}
+
+.featured_info_classroom_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 0
+}
+
+.featured_info_classroom_flex .featured_info_cubic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 80px;
+    background: #FBFBFB;
+    box-shadow: 0px 15px 44px rgba(13, 15, 28, 0.12);
+    border-radius: 50%;
+}
+
+.featured_info_classroom_flex .featured_info_cubic span {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 2px;
+    background: #2F327D;
+}
+
+.featured_info_cubic {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured_cubic1 {
+    position: absolute;
+    top: 29px;
+    left: 27px;
+}
+
+.featured_cubic2 {
+    position: absolute;
+    top: 29px;
+    right: 26px;
+}
+
+.featured_cubic3 {
+    position: absolute;
+    top: 43px;
+    left: 27px;
+}
+
+.featured_cubic4 {
+    position: absolute;
+    top: 43px;
+    right: 26px;
+    background-color: #F48C06 !important;
+}
+
+.featured_cubic_1 {
+    position: absolute;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 10px;
+    background-color: #2F327D !important;
+    top: 30px;
+    left: 27px;
+}
+
+.featured_cubic_2 {
+    position: absolute;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 10px;
+    top: 24px;
+    left: 22px;
+    background-color: #F48C06 !important;
+}
+
+.featured_info_cubic_width {
+    width: 75px !important;
+    height: 75px !important;
+}
+
+.featured_info_cubic_width2 {
+    width: 84px !important;
+    height: 75px !important;
+}
+
+.featured_info_cubic_width2 svg {
+    font-size: 30px;
+    color: #2F327D;
+}
+
+.featured_info_card {
+    height: 100%;
+    width: 650px;
+    background: #F4F4F4;
+    backdrop-filter: blur(80px);
+    border-radius: 20px;
+    position: relative;
+}
+
+.featured_info_card .featured_info_header {
+    background: #EAEAEA;
+    backdrop-filter: blur(80px);
+    border-radius: 20px 20px 0px 0px;
+    height: 30px;
+}
+
+.double1 {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 8px;
+    background-color: #EE6767;
+}
+
+.double2 {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-left: 8px;
+    border-radius: 50%;
+    background-color: #F6C566;
+}
+
+.double3 {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-left: 8px;
+    border-radius: 50%;
+    background-color: #5BEB7B;
+}
+
+.featured_info_card_img {
+    background-image: url("https://image.freepik.com/free-photo/portrait-teacher-giving-online-class_23-2148779843.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 17.0225px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured_info_card_img_info {
+    background: rgba(201, 211, 231, 0.4);
+    backdrop-filter: blur(11.0916px);
+    border-radius: 5.5458px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.featured_info_img_span {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: #33EFA0;
+    left: 73px;
+    border-radius: 50%;
+    top: -14px;
+}
+
+.featured_info_img_span2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #33D9EF;
+    display: inline-block;
+    position: relative;
+    top: -25px;
+    left: 180px
+}
+
+.featured_info_img_span3 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: #5B61EB;
+    right: 80px;
+    border-radius: 50%;
+    bottom: -55px;
+}
+
+.featured_info_img_span4 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: #F56666;
+    right: 300px;
+    border-radius: 50%;
+    bottom: -34px;
+}
+
+.featured_info_card_img_info button {
+    background: #3793FF;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 5.5458px;
+}
+
+.featured_info_card_img_info button:hover {
+    color: #fff;
+}
+
+.featured_info_card_img_info svg,
+button,
+p {
+    margin-left: 10px !important;
+    font-size: 15px;
+}
+
+.featured_btn_group {
+    position: absolute;
+    bottom: 20px
+}
+
+.featured_info_btn {
+    background: #3465E1;
+    box-shadow: 0px 8.51126px 20.427px rgba(52, 101, 225, 0.3);
+    border-radius: 51.0676px;
+    color: #fff;
+    width: 120px;
+}
+
+.featured_info_btn:hover {
+    color: #fff;
+}
+
+.featured_info_btn2 {
+    background: #E13468;
+    box-shadow: 0px 8.51126px 20.427px rgba(202, 47, 93, 0.3);
+    border-radius: 51.0676px;
+    width: 120px;
+    color: #fff;
+}
+
+.featured_info_btn2:hover {
+    color: #fff;
+}
+
+.featured_info_card_img2 {
+    background-image: url("https://media.fulledu.ru/documents/covers/1k34/5cbf58b1d6e4a974d82e8d32/article5cbf58b174f774.94210292.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.featured_info_card_albom {
+    display: flex;
+    position: relative;
+    background-color: #F4F4F4;
+}
+
+.featured_info_card_img2_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(201, 211, 231, 0.4);
+    backdrop-filter: blur(11.0916px);
+    border-radius: 5.5458px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 15px;
+}
+
+.featurd_btn_group {
+    position: absolute;
+    bottom: 18px;
+}
+
+.featured_info_card_img3 {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/987/951/non_2x/shot-of-a-call-center-operator-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.featured_info_card_img3_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(201, 211, 231, 0.4);
+    backdrop-filter: blur(11.0916px);
+    border-radius: 5.5458px;
+    position: absolute;
+    width: 100%;
+    font-size: 15px;
+    bottom: 0;
+}
+
+.featured_info_card_img4 {
+    position: absolute;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ72Cn6wsRe4hmbJsMyQJPWZquCfQ2jqxsgag&usqp=CAU");
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.featured_info_card_img4_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(113, 134, 177, 0.4);
+    backdrop-filter: blur(11.0916px);
+    border-radius: 5.5458px;
+    position: absolute;
+    width: 100%;
+    font-size: 15px;
+
+    bottom: 0;
+}
+
+.featured_info_card_img5 {
+    background-image: url("https://image.freepik.com/free-photo/beautiful-girl-stands-near-walll-with-leaves_8353-5378.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: -35px;
+    right: -80px;
+}
+
+.featured_info_card_img5_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(201, 211, 231, 0.4);
+    backdrop-filter: blur(11.0916px);
+    border-radius: 5.5458px;
+    position: absolute;
+    width: 100%;
+    font-size: 15px;
+    bottom: 0;
+}

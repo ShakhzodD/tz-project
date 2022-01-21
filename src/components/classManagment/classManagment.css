@@ -1,0 +1,265 @@
+.classManagment_title p {
+    width: 500px;
+}
+
+.classManagment_card {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 48px rgba(40, 43, 111, 0.1);
+    border-radius: 20px;
+    position: relative;
+    height: 330px;
+    width: 600px;
+}
+
+
+.classManagment_card_span {
+    background: #D3E7FF;
+    border-radius: 20px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: -2px;
+    bottom: -14px;
+}
+
+.classManagment_card_header {
+    text-align: center;
+    background: #54AFF0;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.classManagment_card_box1 {
+    width: 265px;
+    height: 25px;
+    background: #3189EF;
+    position: absolute;
+    right: 0;
+    top: 80px
+}
+
+.classManagment_card_box1_img {
+    position: relative;
+}
+
+.classManagment_card_box1 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: -30px;
+}
+
+.classManagment_card_box2 {
+    width: 120px;
+    height: 25px;
+    background: #3AC6F2;
+    position: absolute;
+    left: 0;
+    top: 120px
+}
+
+.classManagment_card_box2_img {
+    position: relative;
+}
+
+.classManagment_card_box2 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 82px;
+}
+
+.classManagment_card_box3 {
+    width: 120px;
+    height: 25px;
+    background: #F13C3C;
+    position: absolute;
+    right: 0;
+    bottom: 122px;
+}
+
+.classManagment_card_box3_img {
+    position: relative;
+}
+
+.classManagment_card_box3 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    right: 76px;
+}
+
+.classManagment_card_box4 {
+    width: 220px;
+    height: 25px;
+    background: #68F146;
+    position: absolute;
+    left: 0;
+    bottom: 87px;
+}
+
+.classManagment_card_box4_img {
+    position: relative;
+}
+
+.classManagment_card_box4 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 170px;
+}
+
+.classManagment_card-span1 {
+    background: #CDF3FF;
+    border-radius: 60px;
+    position: absolute;
+    padding: 5px 25px 5px 25px;
+    top: 35px;
+    left: -20px;
+}
+
+.classManagment_card-span2 {
+    background: #CDF3FF;
+    border-radius: 60px;
+    position: absolute;
+    padding: 5px 25px 5px 25px;
+    top: 13px;
+    left: 145px;
+}
+
+.classManagment_card-span3 {
+    background: #FFCDCD;
+    border-radius: 60px;
+    position: absolute;
+    padding: 5px 25px 5px 25px;
+    top: 18px;
+    right: 136px;
+}
+
+.classManagment_card-span4 {
+    background: #CDF3FF;
+    border-radius: 60px;
+    position: absolute;
+    padding: 5px 25px 5px 25px;
+    top: 11px;
+    left: 231px;
+}
+
+.classManagment_card_stack {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    opacity: 0.8;
+    box-shadow: 0px 10px 48px rgba(40, 43, 111, 0.1);
+    position: absolute;
+    top: -31px;
+    left: -38px;
+    transform: matrix(0.97, -0.23, 0.23, 0.97, 0, 0);
+}
+
+.classManagment_card_stack span {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 48px rgba(40, 43, 111, 0.1);
+    transform: matrix(0.97, -0.23, 0.23, 0.97, 0, 0);
+}
+
+.classManagment_card_stack span svg {
+    font-size: 50px;
+    color: #F9BB1C;
+    border-radius: 50%;
+
+    transform: matrix(0.97, -0.23, 0.23, 0.97, 0, 0);
+}
+
+.classManagment_card_book {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    opacity: 0.8;
+    box-shadow: 0px 10px 48px rgba(40, 43, 111, 0.1);
+    position: absolute;
+    right: -38px;
+    z-index: 999;
+    transform: matrix(0.97, -0.23, 0.23, 0.97, 0, 0);
+}
+
+.classManagment_card_book span {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 48px rgba(40, 43, 111, 0.1);
+    transform: matrix(0.97, -0.23, 0.23, 0.97, 0, 0);
+}
+
+.classManagment_card_book span svg {
+    font-size: 40px;
+    color: #3491E7;
+    transform: matrix(0.97, 0.24, -0.24, 0.97, 0, 0);
+    border-radius: 50%;
+}
+
+.classManage_card_btn {
+    position: absolute;
+    background: linear-gradient(105.5deg, #545AE7 19.57%, #393FCF 78.85%);
+    border-radius: 60px;
+    color: #fff;
+    padding: 5px 40px 5px 40px;
+    bottom: 18px;
+    right: 40px;
+}
+
+.classManage_card_btn:hover {
+    color: hsl(0, 0%, 100%);
+}
+
+.classManagment_card_span2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #D3E7FF;
+    position: absolute;
+    top: -37px;
+    right: 67px;
+
+}
+
+.classManagment_card_span3 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    background: #D3E7FF;
+    right: 24px;
+    top: -1px;
+}

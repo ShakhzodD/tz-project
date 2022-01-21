@@ -1,0 +1,60 @@
+.footer {
+    background-color: #252641;
+    color: #fff;
+}
+
+.footer_brand {
+    display: flex;
+    align-items: center;
+}
+
+.footer_brand_info {
+    position: relative;
+}
+
+.footer_brand_info_svg {
+    font-size: 60px;
+    color: #26C1F2;
+
+}
+
+.footer_brand_info_span {
+    position: absolute;
+    top: 15px;
+    left: 22px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer_height {
+    width: 3px;
+    height: 50px;
+    background-color: #626381;
+    display: inline-block;
+    margin-left: 70px;
+}
+
+
+.footer_h6 {
+    margin-left: 50px !important;
+}
+
+.footer_input_info {
+    background: #252641;
+    display: inline-block;
+    color: #83839A;
+    border: 1px solid #83839A;
+    border-radius: 80px;
+    padding: 10px;
+}
+
+.footer_btn {
+    background: linear-gradient(105.5deg, #545AE7 19.57%, #393FCF 78.85%);
+    border-radius: 60px;
+    color: #fff;
+    width: 150px;
+}
+
+.footer_btn:hover {
+    color: #Fff;
+}

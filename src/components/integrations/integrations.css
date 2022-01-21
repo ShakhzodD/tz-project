@@ -1,0 +1,38 @@
+.integrations_icon {
+    display: flex;
+}
+
+.integrations_icon img {
+    width: 200px;
+    height: 180px;
+}
+
+.integrations_text h6 {
+    color: #525596;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 3px;
+}
+
+.integrations_text h6 span {
+    width: 50px;
+    height: 2px;
+    margin-right: 15px;
+    display: inline-block;
+    background-color: #525596;
+}
+
+.integrations_btn {
+    border: 1px solid #F48C06;
+    box-sizing: border-box;
+    border-radius: 80px;
+    color: #F48C06;
+    width: 220px;
+    height: 50px;
+    margin: 15px 0 15px 0 !important;
+}
+
+.integrations_btn:hover {
+    color: #F48C06;
+}

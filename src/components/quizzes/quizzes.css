@@ -1,0 +1,126 @@
+.quizzes_card {
+    position: relative;
+}
+
+.quizzes_card .quizzes_card_info {
+    width: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 9.10294px 43.6941px rgba(40, 43, 111, 0.1);
+    border-radius: 18.2059px;
+    position: relative;
+}
+
+.quizzes_card_span {
+    background: #687EF3;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    left: -34px;
+    top: -20px;
+}
+
+.quizzes_card_span2 {
+    background: #F3A268;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -47px;
+    left: 72px;
+}
+
+.quizzes_card_span3 {
+    background: #34E7A5;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: -35px;
+    left: -20px;
+}
+
+.quizzes_card_span4 {
+    bottom: 167;
+    right: -63px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    background: #F3538C;
+}
+
+.quizzes_card_info_btn {
+    color: #717FB0;
+    background: #CDD8FF;
+    border-radius: 72.8235px;
+    width: 180px;
+}
+
+.quizzes_img {
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/1b/3b/fa/24/this-is-the-taj-mahal.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 200px;
+    border-radius: 18.2059px;
+    position: relative;
+}
+
+.quizzes_link {
+    background: #FFFFFF;
+    box-shadow: 0px 18.2059px 52.7971px rgba(40, 43, 111, 0.08);
+    border-radius: 18.2059px;
+    width: 230px;
+    height: 80px;
+    display: flex;
+    position: absolute;
+    bottom: -49px;
+    right: -57px;
+    justify-content: center;
+    align-items: center;
+    color: #41BE90;
+}
+
+.quizzes_link svg {
+    transform: rotate(-26.79deg);
+    font-size: 30px;
+}
+
+.quizzes_card_info_span {
+    background: #FFFFFF;
+    box-shadow: 0px 3.64118px 40.0529px rgba(47, 50, 125, 0.1);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.quizzes_card_info_span svg {
+    font-size: 40px;
+}
+
+.quizzes_card_span_style {
+    top: -22px;
+    right: 20px;
+    color: #EE3175;
+    transform: rotate(-10.96deg);
+}
+
+.quizzes_card_span_style2 {
+    color: #2DD38E;
+    top: 14px;
+    right: -22px;
+    transform: rotate(13.9deg);
+}
+
+.quizzes_title p {
+    width: 400px;
+}

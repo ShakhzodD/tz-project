@@ -1,0 +1,68 @@
+.all_in_one_brand h6 {
+    color: #696984;
+    font-family: 'Poppins', sans-serif;
+    padding: 60px 0 20px 0;
+    margin: 0;
+}
+
+.all_in_one_brand_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.all_in_one_brand_flex h3 {
+    color: #CFCFDE;
+}
+
+.all_in_one_cloud_title {
+    padding: 50px 0 50px 0;
+}
+
+.all_in_one_cloud_title p {
+    color: #696984;
+
+}
+
+.all_in_one_card1 {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+    border-radius: 20px;
+    padding: 100px 30px 0 30px;
+    height: 290px;
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+}
+
+
+.all_in_one_card1_info h4 {
+    font-weight: 500;
+}
+
+.all_in_h4 {
+    margin-bottom: revert;
+}
+
+.all_in_one_card1_info p {
+    font-size: 16px;
+}
+
+.all_in_one_icons {
+    position: absolute;
+    top: -35px;
+    left: 175px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 40px rgba(54, 61, 136, 0.06);
+    color: #fff;
+}
+
+.all_in_one_icons svg {
+    font-size: 30px;
+
+}

@@ -1,0 +1,49 @@
+.home_about {
+    background: #FFF2E1;
+    position: relative;
+    height: 590px;
+    border-bottom-left-radius: 23%;
+    border-bottom-right-radius: 23%;
+}
+
+.font-popinus {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.font-nunito {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.text-orange {
+    color: #F48C06;
+}
+
+.text-blue {
+    color: #2F327D;
+}
+
+.text-p {
+    color: #696984;
+    margin-left: 0 !important;
+}
+
+.text-infoo {
+    background: #29B9E7;
+}
+
+.bg-blue {
+    background: #2F327D;
+}
+
+.bg-orange {
+    background: #F48C06;
+}
+
+.bg-orange2 {
+    background-color: #F4B767;
+}
+
+.bg-infoo {
+    background: #29B9E7;
+}

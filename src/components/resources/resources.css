@@ -1,0 +1,46 @@
+.resources_info img {
+    background: #171B41;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px 0 20px 0
+}
+
+.resources_info_new {
+    background: #F4C467;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.resources_info_h5 {
+    color: #252641;
+    margin: 20px 0 20px 0;
+}
+
+.resources_info_a {
+    text-decoration: revert;
+}
+
+.resources_card_box_info {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+.resources_img {
+    width: 250px;
+    border-radius: 20px;
+}
+
+.resources_card_text {
+    padding-left: 20px;
+}
+
+.resources_card_text h6 {
+    color: #252641;
+    margin-bottom: 20px;
+}

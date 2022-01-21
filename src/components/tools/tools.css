@@ -1,0 +1,80 @@
+.tools_title p {
+    width: 500px;
+}
+
+.tools_img {
+    background-image: url("../../../public/image/girl.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.tools_img_card {
+    background: #FFFFFF;
+    box-shadow: 0px 14px 44px rgba(86, 91, 221, 0.1);
+    border-radius: 20px;
+    transform: rotate(-12.14deg);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 200px;
+}
+
+.tools_img_card svg {
+    font-size: 40px;
+}
+
+.tools_img_card2 {
+    background: #FFFFFF;
+    box-shadow: 0px 14px 44px rgba(86, 91, 221, 0.1);
+    border-radius: 20px;
+    transform: rotate(9.92deg);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    right: 80px;
+}
+
+.tools_img_card2 svg {
+    font-size: 40px;
+    color: #545AE8;
+    transform: rotate(9.92deg);
+}
+
+.tools_img_span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    ;
+}
+
+.tools_span1 {
+    position: absolute;
+    bottom: 20%;
+    background-color: #FF9A7A;
+    left: 200px;
+}
+
+.tools_span2 {
+    position: absolute;
+    background: #33EFA0;
+    right: 140px;
+    top: 20px;
+}
+
+.tools_span3 {
+    position: absolute;
+    background-color: #8C7AFF;
+    bottom: 20px;
+    right: 30px;
+}
